@@ -150,13 +150,13 @@ economy : _nameless.c72.2240 {
  achievements_added: 600
  new_game: false
  total_distance: 33
- experience_points: 73
- adr: 0
- long_dist: 0
- heavy: 0
- fragile: 0
- urgent: 0
- mechanical: 0
+ experience_points: 249299
+ adr: 63
+ long_dist: 6
+ heavy: 6
+ fragile: 6
+ urgent: 6
+ mechanical: 6
  user_colors: 0
  delivery_log: _nameless.c64.4840
  ferry_log: null
@@ -330,35 +330,6 @@ economy : _nameless.c72.2240 {
  screen_access_list[27]: "truck.upgrades"
  screen_access_list[28]: "trailer.upgrades"
  screen_access_list[29]: "trailer.config"
- screen_visit_list: 28
- screen_visit_list[0]: "screen.bank"
- screen_visit_list[1]: "screen.mail"
- screen_visit_list[2]: "jobs.company"
- screen_visit_list[3]: "screen.skills"
- screen_visit_list[4]: "screen.garageman"
- screen_visit_list[5]: "screen.truckman"
- screen_visit_list[6]: "screen.trailerman"
- screen_visit_list[7]: "screen.driverman"
- screen_visit_list[8]: "screen.recruit"
- screen_visit_list[9]: "screen.recruit_map"
- screen_visit_list[10]: "screen.real_estate"
- screen_visit_list[11]: "truck.dealer_map"
- screen_visit_list[12]: "truck.eshop"
- screen_visit_list[13]: "truck.eshop.used_trucks"
- screen_visit_list[14]: "trailer.dealer"
- screen_visit_list[15]: "trailer.eshop"
- screen_visit_list[16]: "jobs.online"
- screen_visit_list[17]: "screen.quick.travel"
- screen_visit_list[18]: "jobs.cargo.market"
- screen_visit_list[19]: "jobs.cargo.market.company_s"
- screen_visit_list[20]: "jobs.external.market.online"
- screen_visit_list[21]: "jobs.external.market.online_s"
- screen_visit_list[22]: "convoy.selector"
- screen_visit_list[23]: "convoy.init.access"
- screen_visit_list[24]: "convoy.sessions"
- screen_visit_list[25]: "convoy.current.session"
- screen_visit_list[26]: "truck.upgrades"
- screen_visit_list[27]: "trailer.upgrades"
  driver_pool: 354
  driver_pool[0]: driver.84
  driver_pool[1]: driver.151
@@ -937,8 +908,6 @@ vehicle : _nameless.3.5e0c.f660 {
  integrity_odometer_float_part: &3e23fd06
  trip_fuel_l: 0
  trip_fuel: &3e93a553
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: &431fd77a
  trip_time_min: 0
@@ -1332,8 +1301,6 @@ trailer : _nameless.3.6904.1e20 {
  integrity_odometer_float_part: &3e1aa7de
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -12351,8 +12318,6 @@ vehicle : _nameless.c5e.a8a0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -12699,8 +12664,6 @@ vehicle : _nameless.c5e.7ef0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -13042,8 +13005,6 @@ vehicle : _nameless.c5e.b1b0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -13386,8 +13347,6 @@ vehicle : _nameless.c5e.c940 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -13654,8 +13613,6 @@ vehicle : _nameless.c5e.89d0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -14026,8 +13983,6 @@ vehicle : _nameless.c5e.9f90 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -14394,8 +14349,6 @@ vehicle : _nameless.c5e.c5a0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -14779,8 +14732,6 @@ vehicle : _nameless.c5e.cb10 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -15145,8 +15096,6 @@ vehicle : _nameless.c5e.ac40 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -15559,8 +15508,6 @@ vehicle : _nameless.c5e.aa70 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -15868,8 +15815,6 @@ vehicle : _nameless.c5e.db60 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -16179,8 +16124,6 @@ vehicle : _nameless.c5e.a6d0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -16508,8 +16451,6 @@ vehicle : _nameless.c5e.bc90 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -16865,8 +16806,6 @@ vehicle : _nameless.c5e.8630 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -17207,8 +17146,6 @@ vehicle : _nameless.c5e.cce0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -17443,8 +17380,6 @@ vehicle : _nameless.c5e.8ba0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -17680,8 +17615,6 @@ vehicle : _nameless.c5e.9110 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -17977,8 +17910,6 @@ vehicle : _nameless.c5e.ceb0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -18305,8 +18236,6 @@ vehicle : _nameless.c5e.e0d0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -18653,8 +18582,6 @@ vehicle : _nameless.c5e.d250 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -18982,8 +18909,6 @@ vehicle : _nameless.c5e.d420 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -19228,8 +19153,6 @@ vehicle : _nameless.c5e.d7c0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -19496,8 +19419,6 @@ vehicle : _nameless.c5e.ae10 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -19852,8 +19773,6 @@ vehicle : _nameless.c5e.8d70 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -20095,8 +20014,6 @@ vehicle : _nameless.c5e.afe0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -20388,8 +20305,6 @@ vehicle : _nameless.c5e.94b0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -20742,8 +20657,6 @@ vehicle : _nameless.c5e.9680 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -21136,8 +21049,6 @@ vehicle : _nameless.c5e.b8f0 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -21556,8 +21467,6 @@ vehicle : _nameless.c5e.7240 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -21900,8 +21809,6 @@ vehicle : _nameless.c5e.d990 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
@@ -22167,8 +22074,6 @@ vehicle : _nameless.c5e.7410 {
  integrity_odometer_float_part: 0
  trip_fuel_l: 0
  trip_fuel: 0
- trip_recuperation_kwh: 0
- trip_recuperation: 0
  trip_distance_km: 0
  trip_distance: 0
  trip_time_min: 0
